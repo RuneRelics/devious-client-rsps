@@ -13,13 +13,29 @@ https://www.patreon.com/DeviousClient
 
 The client launcher can be downloaded here:
 
-https://github.com/jbx5/devious-launcher/releases
-
 # Devious Client
 A non-compliant and open source fork of OpenOSRS and Unethicalite.
 This client is slightly modified in order to be compatible with our api. Updates to OpenOSRS are directly synced with this fork.
 
 **All existing OpenOSRS or RuneLite plugins ARE compatible with this client.**
+
+# Connect to Alter
+1) First clone this repository,
+![edit_config](https://raw.githubusercontent.com/AlterRSPS/Resources/main/docs/resources/ReadMe_Alter/Edit_conf.png)
+3) And click `Edit Configurations...`
+4) Click the Plus sign inside the window, and select `Gradle
+![ed](https://raw.githubusercontent.com/AlterRSPS/Resources/main/docs/resources/ReadMe_Alter/Edit_configurations.png)
+6) In run field write: `run --args="--developer-mode --debug --jav_config "https://raw.githubusercontent.com/AlterRSPS/Resources/main/docs/resources/jav_config.ws"" -x checkStyleMain -x checkStyleTest -x test` Apply and Done.
+7) And now click green arrow next to it. 
+8) Now in the plugins list find plugin called `Private Server` and click the settings icon.
+9) Inside the Key/Modulus field paste your Modulus key, which can be found at Servers folder Modulus
+   ![ed](https://raw.githubusercontent.com/AlterRSPS/Resources/main/docs/resources/ReadMe_Alter/Modulus_at_server_root.png)
+   ![ed](https://raw.githubusercontent.com/AlterRSPS/Resources/main/docs/resources/ReadMe_Alter/Modulus.png)
+10) Make sure you copied the entire KEY. After you pasted it Disable and Enable the Private Server Plugin (It will refresh that way)
+11) And done you can connect to your server.
+
+- Keep in mind the server has to be running before you open the client.
+- Most common errors are due pasting wrong RSA/Modulus Key or not having the server running.
 
 ## Features
 
